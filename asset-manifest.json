@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/covintracker/static/css/main.b46397d0.chunk.css",
-    "main.js": "/covintracker/static/js/main.37f275ac.chunk.js",
-    "main.js.map": "/covintracker/static/js/main.37f275ac.chunk.js.map",
+    "main.js": "/covintracker/static/js/main.e4b1985a.chunk.js",
+    "main.js.map": "/covintracker/static/js/main.e4b1985a.chunk.js.map",
     "runtime-main.js": "/covintracker/static/js/runtime-main.b51737b2.js",
     "runtime-main.js.map": "/covintracker/static/js/runtime-main.b51737b2.js.map",
     "static/css/2.61b4cb56.chunk.css": "/covintracker/static/css/2.61b4cb56.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.367ae12c.chunk.js",
     "static/css/main.b46397d0.chunk.css",
-    "static/js/main.37f275ac.chunk.js"
+    "static/js/main.e4b1985a.chunk.js"
   ]
 }
