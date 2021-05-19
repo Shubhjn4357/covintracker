@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/covintracker/static/css/main.b46397d0.chunk.css",
+    "main.js": "/covintracker/static/js/main.37f275ac.chunk.js",
+    "main.js.map": "/covintracker/static/js/main.37f275ac.chunk.js.map",
+    "runtime-main.js": "/covintracker/static/js/runtime-main.b51737b2.js",
+    "runtime-main.js.map": "/covintracker/static/js/runtime-main.b51737b2.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/covintracker/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.367ae12c.chunk.js": "/covintracker/static/js/2.367ae12c.chunk.js",
+    "static/js/2.367ae12c.chunk.js.map": "/covintracker/static/js/2.367ae12c.chunk.js.map",
+    "index.html": "/covintracker/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/covintracker/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.b46397d0.chunk.css.map": "/covintracker/static/css/main.b46397d0.chunk.css.map",
+    "static/js/2.367ae12c.chunk.js.LICENSE.txt": "/covintracker/static/js/2.367ae12c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b51737b2.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.367ae12c.chunk.js",
+    "static/css/main.b46397d0.chunk.css",
+    "static/js/main.37f275ac.chunk.js"
+  ]
+}
