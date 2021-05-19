@@ -1,0 +1,140 @@
+
+#switch{
+  border:5px ridge #0079FF;
+  background:#1E00FF;
+  border-radius:6rem;
+  padding:1rem 0.5rem;
+  display:flex;
+  position:relative;
+  align-items:center;
+  justify-content:space-around;
+  width:300px;
+}
+#switch div {
+  color:#000000;
+  
+  font-weight:bolder;
+  text-align: center;
+  width:50%;
+  z-index:2;
+  padding:0;
+}
+#switch span{
+  position:absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:100%;
+  border-radius:3rem;
+  background:#FFFFFF;
+  transition:all 0.25s ease-in-out;
+}
+#switch span.Left{
+  left:50%;
+  transition:all 0.25s ease-in-out;
+}
+.filterList{
+  
+}
+.filtertList button{
+  margin:0.2rem;
+}
+.DataCenters{
+  height:30rem;
+  overflow-y:scroll;
+  padding:1rem 0;
+}
+.DataItems{
+  width:20rem;
+  display:flex;
+  
+  overflow-x: scroll;
+}
+.age{
+  color:rgb(255,0,0);
+}
+.vaccine{
+  margin:0;
+}
+.formFields,.DataBtn{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Loading{
+  width:100%;
+  height:100%;
+  display:grid;
+  place-items: center;
+}
+.centered{
+  overflow:hidden;
+  width:300px;
+  height:300px;
+  position:relative;
+  filter: blur(10px) contrast(20);
+  animation:spin 5s alternate-reverse infinite;
+}
+.blob-1,.blob-2,.blob-3,.blob-4{
+  width:70px;
+  height:70px;
+  position:absolute;
+  border-radius:50%;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.blob-1{
+  left:20%;
+  animation:osc-l 2s ease infinite;
+  background:#FF610B;
+}
+.blob-2{
+  left:80%;
+  animation:osc-2 2s ease infinite;
+  background:#00E2FF;
+}
+.blob-3{
+  top:20%;
+  animation:osc-3 2s ease infinite;
+  background:#00FF4C;
+}
+.blob-4{
+  top:80%;
+  animation:osc-4 2s ease infinite;
+  background:#8B00FF;
+}
+@keyframes osc-l{
+  0%{left:20%;}
+  50%{left:50%;}
+  100%{left:20%;}
+}
+@keyframes osc-2{
+  0%{left:80%;}
+  50%{left:50%;}
+  100%{left:80%;}
+}
+@keyframes osc-3{
+  0%{top:20%;}
+  50%{top:50%;}
+  100%{top:20%;}
+}
+@keyframes osc-4{
+  0%{top:80%;}
+  50%{top:50%;}
+  100%{top:80%;}
+}
+@keyframes spin{
+  0%{
+    transform:rotate(1turn);
+  }
+  25%{
+    transform:rotate(0);
+  }
+  75%{transform:rotate(1turn);}
+  100%{
+    transform:rotate(0);
+  }
+}
